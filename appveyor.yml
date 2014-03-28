@@ -14,10 +14,8 @@ install:
   - npm install
 
 build: off
-
-before_test:
-  - node --version
-
+  
 test_script:
+  - node --version
   - ps: grunt test --no-color
   - cmd: grunt test --no-color
