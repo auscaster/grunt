@@ -11,5 +11,5 @@ install:
 build: off
 
 test_script:
-  - ps: grunt test
-  - cmd: grunt test
+  - ps: grunt test --no-color
+  - cmd: grunt test --no-color
