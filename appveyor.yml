@@ -15,6 +15,9 @@ install:
 
 build: off
 
+before_test:
+  - node --version
+
 test_script:
   - ps: grunt test --no-color
   - cmd: grunt test --no-color
