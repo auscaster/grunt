@@ -4,6 +4,11 @@
 init:
   - git config --global core.autocrlf input
 
+environment:
+  matrix:
+  - nodejs_version: 0.10.26
+  - nodejs_version: 0.8.22
+
 install:
   - npm install -g grunt-cli
   - npm install
