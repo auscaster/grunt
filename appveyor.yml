@@ -11,4 +11,5 @@ install:
 build: off
 
 test_script:
-  - grunt test
+  - ps: grunt test
+  - cmd: grunt test
